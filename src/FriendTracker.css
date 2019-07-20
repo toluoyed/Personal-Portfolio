@@ -1,0 +1,111 @@
+.rootContainer{
+  text-align:center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #FFFFFF;
+  /*flex: 1 1 auto;*/
+  
+}
+.friendtracker-background{
+  width: 100%;
+  height: 100vh;
+  background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url('./media/crop1.png') center center no-repeat;  
+  background-size: cover;
+  position: relative;
+}
+.friendtrackerTitle{
+  opacity: 1;
+  /*color: #A4C639;*/
+  margin: 30px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  /*text-align: right;*/
+}
+.project_type {
+  font-size: 3vw;
+  color: #008000;
+  margin: 0;
+  padding: 0;
+}
+.project_name{
+  font-size: 4vw;
+  font-weight: 500;
+  color: white;
+  padding: 0;
+}
+.friendtrackerDesc1{
+  width: 100%;
+  background-color: lightgray;
+  text-align: center;
+  margin: 0;
+  padding: 5% 20%;
+}
+.friendtrackerDesc1 h1{
+  padding: 4%;
+  text-align: center;
+  color: #008000;
+}
+
+.friendtrackerDesc1 p{
+  padding: 0;
+  text-align: justify;
+  font-size: 120%;
+}
+
+.friendtrackerDesc2{
+  width: 100%;
+  background-color: lightgray;
+  text-align: justify;
+  margin: 0;
+  padding: 5% 20%;
+}
+
+.friendtrackerDesc2 h2{
+  text-align:center;
+  padding-bottom: 2%; 
+  font-weight: 550; 
+}
+
+.friendtrackerDesc2 p{
+  text-align:justify;
+  font-size: 120%;
+}
+
+.friendtrackerDesc3{
+  background-color: #FFFFFF;
+  display: flex;
+  flex-wrap: wrap;
+  /*text-align: justify;*/
+  padding: 5% 6%;
+}
+
+.friendtrackerDesc3 h2{
+  text-align:justify;
+  padding-bottom: 2%; 
+  font-weight: 550; 
+}
+
+.friendtrackerDesc3 p{
+  text-align:justify;
+  font-size: 120%;
+}
+.split-left{
+  flex: 50%;
+  padding: 5%;
+}
+.split-right{
+  flex: 50%;
+  padding: 5%;
+}
+.split-right img{
+  width: 50%
+}
+
+.friendtrackerDesc4{
+  width: 100%;
+  background-color: #F48729;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5% 6%;
+}
