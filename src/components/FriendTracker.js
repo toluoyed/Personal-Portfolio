@@ -47,20 +47,22 @@ function FriendTracker() {
 			<div className="friendtrackerDesc4">
 				<div className="phoneDesc7">
 					<img src={require('../media/nd7.png')} alt='login screen'  />
-					<span>LOGIN PAGE</span>
+					<p>LOGIN PAGE</p>
 				</div>
 			</div>
 			<div className="friendtrackerDesc5">
 				<div className="phoneDesc8">
 					<img src={require('../media/nd8.png')} alt='signup screen' />
-					<span>SIGN UP PAGE</span>
-				</div>
-				<div className="phoneDesc9">
-					<img src={require('../media/nd9.png')} alt='menu list screen' />
-					<span>MENU LIST</span>
+					<p>SIGN UP PAGE</p>
 				</div>
 			</div>
 			<div className="friendtrackerDesc6">
+				<div className="phoneDesc9">
+					<img src={require('../media/nd9.png')} alt='menu list screen' />
+					<p>MENU LIST</p>
+				</div>
+			</div>
+			<div className="friendtrackerDesc7">
 				<h2>Reflecions</h2>
 
 				<p>THe project is still in the development phase. The screenshots are based on the progress I have made while developing the app.</p>
