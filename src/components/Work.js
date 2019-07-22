@@ -1,41 +1,17 @@
 import React from 'react';
+import '../Work.css';
 import Fade from 'react-reveal/Fade';
 
-
-var sty1 = {
-	color:'red',
-};
-var sty2 ={
-	color:'blue',
-};
-const animatedList = [<h1 style={sty1}>Site 1</h1>,<h1 style={sty2}>Site 2</h1>,3,4,5];
+const animatedList = [<p className="sty1">Nintel App</p>,<p className="sty2">Friend Tracker App</p>,<p className="sty3">Book Fetch</p>,<p className="sty4">Archives</p>];
 
 function Work(){
-
-	var block ={
-		display:'flex',
-		alignItems: 'center',
-		justifyConent: 'center',
-		width: '100%',
-		height: '100%',
-		background: '#000000',
-		borderBottom: '1px solid rgba(255,255,255,.2)',
-	};
-	var title ={
-		textAlign:'center',
-		color:'#fff',
-		fontSize: 100,
-		fontWeight: 100,
-	};
-	var con={
-		height:'100vh',
-	}; 
+ 
 	return(
-		<div style={con}>
-			{animatedList.map((item, key) => (
-				<div style={block} key={key}>
+		<div className="rootContainer">
+			{animatedList.map((item) => (
+				<div className="block">
 					<Fade top>
-						<h1 style ={title}>{item}</h1>
+						<h1 className="title">{item}</h1>
 					</Fade>
 				</div>
 			))}

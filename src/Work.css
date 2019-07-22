@@ -1,0 +1,33 @@
+.rootContainer{
+	height:100vh;
+}
+
+.block{
+	display: flex;
+	align-items: center;
+	justify-content: center; 
+	width: 100%;
+	height: 100%;
+	background: #000000;
+	border-bottom: 1px solid rgba(255,255,255,.2);
+}
+
+.title{
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 100px;
+	font-weight: 200;
+}
+
+.sty1:hover{
+	color: red;
+}
+.sty2:hover{
+	color: blue;
+}
+.sty3:hover{
+	color: green;
+}
+.sty4:hover{
+	color: yellow;
+}
