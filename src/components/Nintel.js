@@ -1,6 +1,7 @@
 import React from 'react';
 import '../Nintel.css';
-
+import Footer from './Footer';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 
 function Nintel(){
@@ -52,12 +53,12 @@ function Nintel(){
 			</div>
 			<div className="nintelDesc4">
 				<div className="phoneDesc">
-					<img src={require('../media/nd1.png')} alt='launch screen' />
-					<span>LAUNCH PAGE</span>
+						<img src={require('../media/nd1.png')} alt='launch screen' />
+						<span>LAUNCH PAGE</span>
 				</div>
 				<div className="phoneDesc2">
-					<img src={require('../media/nd2.png')} alt='login screen'  />
-					<span>LOGIN PAGE</span>
+						<img src={require('../media/nd2.png')} alt='login screen'  />
+						<span>LOGIN PAGE</span>
 				</div>
 			</div>
 			<div className="nintelDesc5">
@@ -85,6 +86,8 @@ function Nintel(){
 
 				<p>THe project is still in the development phase. The screenshots are based on the progress I have made while developing the app.</p>
 			</div>
+
+			<Footer></Footer>
 		</div>
 	);
 }

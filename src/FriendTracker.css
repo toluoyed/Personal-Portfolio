@@ -143,3 +143,17 @@
 .phoneDesc9 img{
   width:45%;
 }
+.friendtrackerDesc7{
+  width: 100%;
+  background-color: lightgray;
+  text-align: justify;
+  margin: 0;
+  font-size: 120%;
+  padding: 5% 20%;
+}
+
+.friendtrackerDesc7 h2{
+  text-align:justify;
+  padding-bottom: 2%; 
+  font-weight: 550; 
+}

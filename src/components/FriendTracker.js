@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from './Footer';
 import '../FriendTracker.css';
 
 function FriendTracker() {
@@ -65,8 +66,16 @@ function FriendTracker() {
 			<div className="friendtrackerDesc7">
 				<h2>Reflecions</h2>
 
-				<p>THe project is still in the development phase. The screenshots are based on the progress I have made while developing the app.</p>
+				<p>This project was a tough one to turn in within two weeks. </p>
+				<br/>
+				<p>1. I learnt about Google Web services</p>
+				<br/>
+				<p>2. I learnt how to integrate web services with Android studio</p>
+				<br/>
+				<p>3. I learnt how to reach out for help and find solutions to problems</p>
 			</div>
+
+			<Footer></Footer>
 		</div>
   );
 }
