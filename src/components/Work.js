@@ -1,14 +1,17 @@
 import React from 'react';
 import '../Work.css';
 import Fade from 'react-reveal/Fade';
-import ScrollAnimation from 'react-animate-on-scroll';
+import {Link} from 'react-router-dom';
 
-const animatedList = [<p className="sty1">Nintel App</p>,<p className="sty2">Friend Tracker App</p>,<p className="sty3">Book Fetch</p>,<p className="sty4">Archives</p>];
+const animatedList = [<Link to="/Nintel"><li className="sty1">Nintel App</li></Link>,
+<Link to="/FriendTracker"><li className="sty2">Friend Tracker App</li></Link>,
+<li className="sty3">Book Fetch</li>,
+<li className="sty4">Archives</li>];
 
 function Work(){
  
 	return(
-		<div className="rootContainer">
+		<React.Fragment>
 			{animatedList.map((item) => (
 				<div className="block">
 					<Fade left>
@@ -16,9 +19,8 @@ function Work(){
 					</Fade>
 				</div>
 			))}
-		</div>
+		</React.Fragment>
 	);
 }
-
 
 export default Work;

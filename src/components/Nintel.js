@@ -1,7 +1,6 @@
 import React from 'react';
 import '../Nintel.css';
 import Footer from './Footer';
-import ScrollAnimation from 'react-animate-on-scroll';
 
 
 function Nintel(){
@@ -9,12 +8,14 @@ function Nintel(){
 	return(
 		<div className='rootContainer'>
 			<div className="nintel-background">
-				<img src={require('../media/netintel2.png')} alt='Restaurant' className='nintelLogo'/>
-				<div className="nintelTitle">
-					<br/>
-					<p className="projectType">Mobile Computing</p>
-					<br/>
-					<p className="projectName">Nintel Restaurant App </p>
+				<div className="nintel-header">
+					<img src={require('../media/netintel2.png')} alt='Restaurant' className='nintelLogo'/>
+					<div className="nintelTitle">
+						<br/>
+						<p className="projectType">Mobile Computing</p>
+						<br/>
+						<p className="projectName">Nintel Restaurant App </p>
+					</div>
 				</div>
 			</div>
 			<div className="nintelDesc1">
