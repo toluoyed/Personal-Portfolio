@@ -3,8 +3,8 @@ import '../Work.css';
 import Fade from 'react-reveal/Fade';
 import {Link} from 'react-router-dom';
 
-const animatedList = [<Link to="/Nintel"><li className="sty1">Nintel App</li></Link>,
-<Link to="/FriendTracker"><li className="sty2">Friend Tracker App</li></Link>,
+const animatedList = [<Link to="/Nintel"><a href="/Nintel" className="sty1">Nintel App</a></Link>,
+<Link to="/FriendTracker"><a href="/FriendTracker" className="sty2">Friend Tracker App</a></Link>,
 <li className="sty3">Book Fetch</li>,
 <li className="sty4">Archives</li>];
 

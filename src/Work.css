@@ -23,8 +23,10 @@
 	font-weight: 200;
 }
 
+
 .sty1:hover{
 	color: red;
+	text-decoration: none;
 }
 .sty2:hover{
 	color: blue;
@@ -35,3 +37,23 @@
 .sty4:hover{
 	color: yellow;
 }
+
+a:link{
+	text-decoration: none;
+}
+a:visited{
+	color: white;
+	text-decoration: none;
+}
+a:active{
+	text-decoration: none;	
+}
+/*.sty2:hover{
+	color: blue;
+}
+.sty3:hover{
+	color: green;
+}
+.sty4:hover{
+	color: yellow;
+}*/
