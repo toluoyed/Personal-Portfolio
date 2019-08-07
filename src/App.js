@@ -4,6 +4,7 @@ import Nintel from './components/Nintel';
 import Footer from './components/Footer';
 import FriendTracker from './components/FriendTracker';
 import Work from './components/Work';*/
+import Homepage from './components/Homepage';
 import Nintel from './components/Nintel';
 import FriendTracker from './components/FriendTracker';
 import Work from './components/Work';
@@ -15,7 +16,8 @@ function App() {
   	<Router>
   		<Switch>
 			<div className="App">
-				<Route path="/" exact component={Work}/>
+				<Route path="/" exact component={Homepage}/>
+				<Route path= "/Work" component={Work}/>
 				<Route path="/Nintel" component={Nintel}/>
 				<Route path="/FriendTracker" component={FriendTracker}/>
 			</div>

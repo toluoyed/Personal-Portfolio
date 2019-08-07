@@ -2,21 +2,31 @@ import React from 'react';
 import '../Homepage.css';
 
 function Homepage(){
+	function openBar(){
+		document.getElementById("sidebar").style.width = "70%";
 
-	function handleClick(){
-		const wrapper = document.getElementById('wrapper');
-		wrapper.classList.toggle('is-nav-open')
-		console.log('My name is Tolu')
 	}
-
 	return(
-		<div className="rootContainer">
-			<div id= "wrapper" className="wrapper">
-				<div className="nav">
-					
-					<div className="nav__body">My Name is Tolu and I am rich</div>
-				</div>
+		<div className="rootCon">
+			<div className= "cancel">
+				<span>
+					::before
+					::after
+				</span>
 			</div>
+			
+			<div className="toggle-btn" onClick = {openBar}>
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<nav id="sidebar"> 
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="/Work">Work</a></li>
+				</ul>
+			</nav>
 		</div>
 	);
 }
