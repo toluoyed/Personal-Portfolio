@@ -10,6 +10,7 @@ function Footer(){
 		margin:0,
 		width: '100%',
 		backgroundColor:'black',
+		bottom:0,
 	};
 	return(
 		<div className='footer' style={style}>

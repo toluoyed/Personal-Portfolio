@@ -1,0 +1,38 @@
+.root{
+	height: 100vh;
+	width: 100vw;
+	background-color: black;
+	
+
+}
+
+.about{
+	color: white;
+	width: 100%;
+	top: 25%;
+	bottom: 25%;
+  	text-align: justify;
+  	padding: 5% 20%;
+  	position: absolute;
+}
+
+.button{
+	background-color:black;
+	border:3px solid #5285c6;
+	border-radius: 15px;
+	color:#5285c6;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 5%;
+	-webkit-transition-duration:0.4s;
+	transition-duration:0.4s; 
+	cursor: pointer; 
+}
+
+.button:hover{
+	background-color: #5285c6;
+	color: black;
+}

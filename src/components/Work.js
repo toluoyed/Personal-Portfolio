@@ -1,7 +1,7 @@
 import React from 'react';
 import '../Work.css';
 import Fade from 'react-reveal/Fade';
-import {Link} from 'react-router-dom';
+
 
 const animatedList = [<a href="/Nintel" className="sty1">Nintel App</a>,
 <a href="/FriendTracker" className="sty2">Friend Tracker App</a>,
