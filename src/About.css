@@ -2,25 +2,26 @@
 	height: 100vh;
 	width: 100vw;
 	background-color: black;
+	overflow: auto;
 	
 
 }
 
 .about{
 	color: white;
-	width: 100%;
-	top: 25%;
-	bottom: 25%;
+	width: 50%;
+	margin: 0 auto;
   	text-align: justify;
-  	padding: 5% 20%;
-  	position: absolute;
+  	position: relative;
+  	padding-top: 15%;
+  	/*padding: 5% 20%;*/
 }
 
 .button{
 	background-color:black;
-	border:3px solid #5285c6;
+	border:3px solid red;
 	border-radius: 15px;
-	color:#5285c6;
+	color:red;
 	padding: 15px 32px;
 	text-align: center;
 	text-decoration: none;
@@ -33,6 +34,7 @@
 }
 
 .button:hover{
-	background-color: #5285c6;
+	background-color: red;
 	color: black;
 }
+

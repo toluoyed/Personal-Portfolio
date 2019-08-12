@@ -4,18 +4,22 @@ import '../Homepage.css';
 function Homepage(){
 	function openBar(){
 		document.getElementById("sidebar").style.width = "70%";
+		document.getElementById("toggle-btn").style.zIndex="-4";
+		document.getElementById("cancel").style.zIndex="4";
 
+	}
+	function closeBar(){
+		document.getElementById("sidebar").style.width = "0";
+		document.getElementById("toggle-btn").style.zIndex="4";
+		document.getElementById("cancel").style.zIndex="-4";
 	}
 	return(
 		<div className="rootCon">
-			<div className= "cancel">
-				<span>
-					::before
-					::after
-				</span>
+			<div id= "cancel" onClick = {closeBar}>
+				
 			</div>
 			
-			<div className="toggle-btn" onClick = {openBar}>
+			<div id="toggle-btn" onClick = {openBar}>
 				<span></span>
 				<span></span>
 				<span></span>

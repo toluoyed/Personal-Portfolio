@@ -22,11 +22,7 @@ function About(){
 
 				<button className="button">Resume</button>	
 			</div>
-			<div>
-				<p>My Name is Tolu </p>
-			</div>
 			<Footer></Footer>
-			
 		</div>
 	);
 }

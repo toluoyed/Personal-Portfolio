@@ -28,19 +28,21 @@
   /*padding: 15px 10px;
   border-bottom: 1px solid rgba(100,100,100,0.3);*/
   margin: 2em;
+  transition: 0.3s;
   
 }
-.toggle-btn {
+#toggle-btn {
   position: absolute;
   right: 4%;
   top: 5%;
   z-index: 4;
 }
-.toggle-btn span {
+#toggle-btn span {
   display: block;
   width: 40px;
   height: 5px;
-  background: red; 
+  background: red;
+  /*#5285c6; */
   /*#151719;*/
   margin: 6px 0px;
 }
@@ -53,32 +55,12 @@
 	color: red;
 }
 
-.cancel {
+#cancel:after{
+  z-index: -1;
+  content: "\274c";
+  font-size: 30px;
   position: absolute;
-  left: 4%;
+  right: 4%;
   top: 5%;
-  z-index: 4;
-}
-.cancel span {
-  display: block;
-  width: 40px;
-  height: 5px;
-  background: red; 
-  /*#151719;*/
-  margin: 6px 0px;
-}
-.cancel span::before{
-	position: absolute;
-	height: .2em;
-	width:10em;
-	content: '';
-	transform: translateY(-.7em);
-	transition: background .5s,transform .5s,-webkit-transform .5s;
-}
-
-.cancel span::after{
-	content: '';
-	transform: translateY(.7em);
-	transition: background .5s,transform .5s,-webkit-transform .5s;
-
+  
 }
